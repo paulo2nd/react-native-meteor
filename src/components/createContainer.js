@@ -19,7 +19,7 @@ export default function createContainer(options = {}, Component) {
     getMeteorData
   } = expandedOptions;
 
-  return createReactClas({
+  return createReactClass({
     displayName: 'MeteorDataContainer',
     mixins: [Mixin],
     getMeteorData() {
